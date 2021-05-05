@@ -23,7 +23,8 @@ public class Dog {
         return stick;
 
     }
-    void printinfo(){
+
+    void printinfo() {
         System.out.println("--------------------------");
         System.out.println("Dog name is " + this.name);
         System.out.println("Dog age is " + this.age);
@@ -32,14 +33,16 @@ public class Dog {
         System.out.println("Dog breed is " + this.breed);
 
     }
-    public boolean equals(Object object){
-        if(object instanceof Dog){
+
+    public boolean equals(Object object) {
+        if (object instanceof Dog) {
             Dog dog = (Dog) object;
             return this.age == dog.age;
         }
         return false;
     }
-    public String toString(){
+
+    public String toString() {
         return "Dog" + this.name + " age, " + this.age;
 
     }
