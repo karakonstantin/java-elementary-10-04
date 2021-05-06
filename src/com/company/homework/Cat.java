@@ -12,8 +12,9 @@ public class Cat {
         System.out.println("Cat weight is " + this.weight);
 
     }
-    public boolean equals(Object object){
-        if(object instanceof Cat){
+
+    public boolean equals(Object object) {
+        if (object instanceof Cat) {
             Cat cat = (Cat) object;
             return this.age == cat.age;
         }
