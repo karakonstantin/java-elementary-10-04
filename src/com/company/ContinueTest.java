@@ -15,10 +15,10 @@ public class ContinueTest {
             numbers[i] = Integer.parseInt(reader.readLine());
 
             if (numbers[i] % 2 == 0) {
-                System.out.println(numbers[i] + "четное");
+                System.out.println("Число " + numbers[i] + " четное !!!");
                 continue;
             }
-            System.out.println(numbers[i] + " не четное");
+            System.out.println("Число " + numbers[i] + " не четное !!!");
 
 
         }

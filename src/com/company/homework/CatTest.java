@@ -11,7 +11,7 @@ public class CatTest {
 
         Cat kotovasik = new Cat();
         kotovasik.name = " Kotovasik";
-        kotovasik.age = 6;
+        kotovasik.age = 5;
         kotovasik.weight = 32;
         kotovasik.printinfo();
     }

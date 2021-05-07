@@ -15,7 +15,7 @@ public class Main {
             if (numbers[i] % 2 == 0) {
                 System.out.println(numbers[i] + " четное ");
             } else if (numbers[i] % 5 == 0) {
-                System.out.println(numbers[i] + " кратно 5 ");
+                System.out.println(numbers[i] + " кратное 5 ");
             } else if (numbers[i] % 10 == 0) {
                 System.out.println(numbers[i] + " кратно 10 ");
             } else {

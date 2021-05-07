@@ -14,7 +14,7 @@ public class Switch {
 
             switch (inPut) {
                 case "monday":
-                    System.out.println("we do smtg");
+                    System.out.println("we do something");
                     break;
                 case "wednesday":
                     System.out.println("we do nothing");
