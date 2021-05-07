@@ -17,6 +17,5 @@ public class Summa {
                 n += Integer.parseInt(st);
             }
         }
-
     }
 }
