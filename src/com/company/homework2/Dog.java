@@ -2,22 +2,19 @@ package com.company.homework2;
 
 public class Dog {
     String name;
-    int weight;
+    double weight;
     int power;
-
-    public static void main(String[] args) {
-
-        Dog johnny = new Dog();
-        johnny.name = " Johnny";
-        johnny.weight = 30;
-        johnny.power = 200;
+    String battle;
 
 
-        Dog pushok = new Dog();
-        pushok.name = " Pushok ";
-        pushok.weight = 30;
-        pushok.power = 300;
-
-
+    void fight(Dog dog) {
+        if (this.power > dog.power) {
+            battle = this.name;
+        } else if (this.power < dog.power) {
+            battle = dog.name;
+        } else {
+            battle = "No one wins";
+        }
+        System.out.println("Our winner is " + battle);
     }
 }
