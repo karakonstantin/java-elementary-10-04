@@ -1,5 +1,6 @@
 package com.company.homework13;
 
+// #1
 public class Taxes {
     int TaxK;
     int S;

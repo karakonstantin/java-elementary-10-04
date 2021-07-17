@@ -1,5 +1,6 @@
 package com.company.homework13;
 
+// #3
 public class LivingTaxes extends Taxes {
 
     int subsidiya;

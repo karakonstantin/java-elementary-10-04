@@ -1,5 +1,6 @@
 package com.company.homework13;
 
+// #2
 public class ProductionTaxes extends Taxes {
 
     public ProductionTaxes(int TaxK, int S) {

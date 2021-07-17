@@ -1,5 +1,6 @@
 package com.company.homework13;
 
+// #5
 public class TaxesTest {
     public static void main(String[] args) {
         ProductionTaxes productionTaxes = new ProductionTaxes(10, 4);
