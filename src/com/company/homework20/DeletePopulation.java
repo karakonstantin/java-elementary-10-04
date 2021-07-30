@@ -24,11 +24,10 @@ public class DeletePopulation {
         dateHashMap.put("Lunin", LocalDate.of(2000, 6, 9));
         dateHashMap.put("Tarasov", LocalDate.of(998, 7, 13));
 
-
         return dateHashMap;
     }
 
-    public static void removeAllSummerPeople(HashMap<String, LocalDate> map) {
+    public static void deleteAllSummerPeople(HashMap<String, LocalDate> map) {
         Iterator<HashMap.Entry<String, LocalDate>> entryIterator = map.entrySet().iterator();
         while (entryIterator.hasNext()) {
             HashMap.Entry<String, LocalDate> it = entryIterator.next();
@@ -43,6 +42,6 @@ public class DeletePopulation {
 
     public static void main(String[] args) {
         System.out.println(createMap());
-        removeAllSummerPeople(createMap());
+        deleteAllSummerPeople(createMap());
     }
 }

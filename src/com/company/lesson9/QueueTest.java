@@ -10,7 +10,7 @@ public class QueueTest {
         strings.add("one");
         strings.add("two");
         strings.add("three");
-        //strings.offer("four");
+        strings.offer("four");
 
         System.out.println(strings);
 
