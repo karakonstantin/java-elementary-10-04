@@ -1,4 +1,4 @@
-package com.company.homework20another;
+package com.company.homework20;
 
 import java.util.Date;
 import java.util.HashMap;
